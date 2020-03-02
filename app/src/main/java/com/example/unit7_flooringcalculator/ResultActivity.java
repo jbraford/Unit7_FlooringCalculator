@@ -38,7 +38,7 @@ public class ResultActivity extends AppCompatActivity {
                 //setResult(0, goBack);
                 //setResult(ResultActivity.RESULT_OK, goBack);
                 ResultActivity.this.startActivity(goBack);
-                //ResultActivity.this.finish();
+                ResultActivity.this.finish();
             }
         }, 5000);
 
